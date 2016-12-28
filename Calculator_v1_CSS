@@ -1,0 +1,18 @@
+
+
+body {
+	
+}
+
+table {
+    text-align: center;
+    border: none;
+}
+
+.textField {
+    size: 50px;   
+}
+
+.button {
+    padding: 10px;
+}
