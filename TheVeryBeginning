@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+	   <table id="Input">
+          <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td> 
+            <td><button>9</button></td>
+          </tr>
+          <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td> 
+            <td><button>6</button></td>
+          </tr>
+          <tr>
+            <th><button>1</button></th>
+            <th><button>2</button></th> 
+            <th><button>3</button></th>
+          </tr>
+        </table>
+		
+	</body>
+</html>
