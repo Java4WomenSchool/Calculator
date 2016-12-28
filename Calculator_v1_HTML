@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+<body>
+	 <form name="calc" id="calc">
+	    
+	 <!--   <table style="width:100%"> -->
+    <table id="Input">
+        <tr>
+            <td colspan="4" width=80%><input type=text Name="display" class="textField"></td>
+        </tr>
+        <tr>
+            <td><input type=button value="7" class="button" OnClick="calc.display.value+='7'"></td>
+            <td><input type=button value="8" class="button" OnClick="calc.display.value+='8'"></td>
+            <td><input type=button value="9" class="button" OnClick="calc.display.value+='9'"></td>
+            <td><input type=button value="+" class="button" OnClick="calc.display.value+='+'"></td>
+        </tr>
+        <tr>
+            <td><input type=button value="4" class="button" OnClick="calc.display.value+='4"></td>
+            <td><input type=button value="5" class="button" OnClick="calc.display.value+='5'"></td>
+            <td><input type=button value="6" class="button" OnClick="calc.display.value+='6'"></td>
+            <td><input type=button value="-" class="button" OnClick="calc.display.value+='-'"></td>
+        </tr>
+        <tr>
+            <td><input type=button value="1" class="button" OnClick="calc.display.value+='1'"></td>
+            <td><input type=button value="2" class="button" OnClick="calc.display.value+='2'"></td>
+            <td><input type=button value="3" class="button" OnClick="calc.display.value+='3'"></td>
+            <td><input type=button value="*" class="button" OnClick="calc.display.value+='*'"></td>
+        </tr>
+        <tr>
+            <td><input type=button value="0" class="button" OnClick="calc.display.value+='0'"></td>
+            <td colspan="2"><input type=button value=" Clear " class="button" OnClick="resetForm()"></td>
+            <td><input type=button value="/" class="button" OnClick="calc.display.value+='/'"></td>
+          </tr>
+        <tr>
+            <td colspan="4"><input type=button value=" Calc " class="button" OnClick="calc.display.value=eval(calc.display.value)"></td>
+          </tr>
+    </table>
+
+</form>
+    </body>
+</html>
+
